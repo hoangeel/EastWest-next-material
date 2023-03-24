@@ -1,0 +1,33 @@
+
+!important
+import { styled, useTheme } from '@mui/material/styles';
+const Text = styled(Box)(({theme}) => ({
+    color: '#FFFFFF',
+    border: "#00000010 1px solid",
+    "&:hover": {
+      cursor: "pointer",
+      opacity:'0.7',
+    },
+    ten className thanh phan ben trong
+    ".MuiDrawer-paper": {
+      width: "100%",
+    }
+    [theme.breakpoints.down('lg')]: {
+      margin:"0px ",
+      color: "red",
+    },
+  }));
+  sx
+      xs: 0,
+      sm: 600,
+      md: 900,
+      lg: 1200,
+      xl: 1536,
+
+  background: 'url(./img/mobileSectionHome.png)',
+  backgroundSize:"100% 117%",
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
